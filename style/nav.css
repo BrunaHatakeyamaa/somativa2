@@ -1,0 +1,22 @@
+.navbar-default {
+  background-color: #ffffff00;
+  border-bottom: 2px solid #333131;
+  margin: 10px 100px;
+}
+.navbar {
+  border-radius: 0px;
+	border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #2A2A2A;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #793b3b;
+    font-size: 25px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    margin: 10px;
+}
+body {
+  background: linear-gradient(to right, #AFADA94D, #D7D5D3E6);
+}
