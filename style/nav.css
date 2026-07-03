@@ -1,5 +1,5 @@
 .navbar-default {
-  background-color: #ffffff00;
+  background-color: #33313100;
   border-bottom: 2px solid #333131;
   margin: 10px 100px;
 }
@@ -10,13 +10,28 @@
   border-left: none;
   color: #2A2A2A;
 }
+.navbar-nav>li {
+  margin: 5px;
+}
 .navbar-default .navbar-nav>li>a {
-    color: #793b3b;
+    color: #333131;
     font-size: 25px;
     font-family: "League Spartan", sans-serif;
     font-weight: 400;
-    margin: 10px;
+    margin: 2px;
+    padding: 10px 20px;
+}
+.espacamento-direita {
+     margin-right:50px;
 }
 body {
   background: linear-gradient(to right, #AFADA94D, #D7D5D3E6);
+}
+
+.active, .active:hover {
+  background-color: #A4A0A0 !important;
+  border-radius: 50px;
+}
+a:focus {
+  outline: none;
 }
